@@ -13,8 +13,8 @@ function onInteraction(args)
     
     world.logInfo("****************MOD OUTPUT****************")
     
-    local playerIds = world.playerQuery({0,0}, 100000)
-    return playerIds
+    local playerIds = world.playerQuery({0,0})
+    world.logInfo(playerIds)
     
     
     --world.playerQuery(object.position, self.noticePlayersRadius, { inSightOf = entity.id() })
