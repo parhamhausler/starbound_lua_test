@@ -6,5 +6,5 @@ function main()
 end
 
 function onInteraction(args)
-  object.playSound("\sfx\gglaugh.wav")
+    object.playSound("\sfx\gglaugh.wav")
 end
