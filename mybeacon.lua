@@ -14,6 +14,8 @@ function onInteraction(args)
     
     world.logInfo("****************MOD OUTPUT****************")
     
+    local playerPos = world.entityPosition(playerIds)
+    
     --playerIds = world.playerQuery({0,0}, 10000)
     world.logInfo(playerIds)
     
@@ -28,7 +30,7 @@ function onInteraction(args)
     --return { "ShowPopup", { message = "Testing!" } }
 end
 
-function update()
-    playerPos = world.entityPosition(playerIds)
-    return playerPos
-end
+--function update()
+    --playerPos = world.entityPosition(playerIds)
+    --return playerPos
+--end
