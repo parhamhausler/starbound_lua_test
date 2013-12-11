@@ -16,11 +16,14 @@ function onInteraction(args)
     
     local playerPos = world.entityPosition(playerIds)
     
+    
+    
     --playerIds = world.playerQuery({0,0}, 10000)
     world.logInfo(playerIds)
+    world.logInfo(playerPos)
     
-    local playerDistance = world.distance({0,0}, playerPos)
-    return { "ShowPopup", { message = playerDistance } }
+    --local playerDistance = world.distance({0,0}, playerPos)
+    --return { "ShowPopup", { message = playerDistance } }
     
     
     --entity.health(playerIds, 1, 1)
