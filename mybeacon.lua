@@ -1,14 +1,18 @@
-function init(args)
+ function init(args)
+        self.main()
+end
+
+function main()
     if self.initialized == nil then
-        initializeObject();
-        self.initialized = true;
+        initializeObject()
+        self.initialized = true
     end
 end
 
 function initializeObject()
-    object.setInteractive(true);
+    object.setInteractive(true)
 end
 
 function onInteraction(args)
-	return { "ShowPopup", { message = "Testing!" } }
+        return { "ShowPopup", { message = "Testing!" } }
 end
