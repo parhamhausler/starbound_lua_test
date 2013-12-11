@@ -1,7 +1,7 @@
 function main()
     if self.initialized == nil then
-        initializeObject();
-        self.initialized = true;
+        initializeObject()
+        self.initialized = true
     end
 end
 
