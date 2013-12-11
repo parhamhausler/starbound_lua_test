@@ -11,7 +11,7 @@ end
 
 function onInteraction(args)
     
-    print ("****************MOD OUTPUT****************")
+    print("****************MOD OUTPUT****************")
     
     local playerIds = world.playerQuery({0,0}, 100000)
     return playerIds
