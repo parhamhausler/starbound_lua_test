@@ -10,7 +10,7 @@ function initializeObject()
 end
 
 function onInteraction(args)
-    plog = world.playerQuery(args)
+    plog = world.playerQuery(object.position, self.noticePlayersRadius, { inSightOf = self.id() })
     world.logInfo("plog")
     object.playSound("closeSounds")
     world.spawnMonster("serpentdroid", object.toAbsolutePosition({ 0.0, 5.0 }), { level = 1 })
