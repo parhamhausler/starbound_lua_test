@@ -1,4 +1,4 @@
- function init(args)
+ function main()
     if self.initialized == nil then
         initializeObject()
         self.initialized = true
