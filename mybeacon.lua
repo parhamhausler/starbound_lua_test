@@ -10,5 +10,7 @@ function initializeObject()
 end
 
 function onInteraction(args)
-        return { "ShowPopup", { message = "Testing!" } }
+    object.playSound("closeSounds")
+    world.spawnMonster("serpentdroid", object.toAbsolutePosition({ 0.0, 5.0 }), { level = 1 })
+    return { "ShowPopup", { message = "Testing!" } }
 end
