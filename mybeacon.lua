@@ -14,7 +14,7 @@ function onInteraction(args)
     
     world.logInfo("****************MOD OUTPUT****************")
     
-    local playerPos = world.entityPosition(playerIds)
+    local playerPos{} = world.entityPosition(playerIds)
     
     
     
