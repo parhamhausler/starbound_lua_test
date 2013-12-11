@@ -17,6 +17,7 @@ function onInteraction(args)
     local playerPos = world.entityPosition(playerIds)
     --for playerPos = 1, 2, 1 do
         --playerPosList = {}
+    --end
         
     world.entityPosition(playerIds)
     
