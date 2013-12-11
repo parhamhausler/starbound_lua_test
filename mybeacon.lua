@@ -16,6 +16,8 @@ function onInteraction(args)
     local playerIds = world.playerQuery({0,0}, 10000)
     world.logInfo(playerIds)
     
+    world.distance({0,0}, playerIds)
+    
     --entity.health(playerIds, 1, 1)
     
     --world.playerQuery(object.position, self.noticePlayersRadius, { inSightOf = entity.id() })
