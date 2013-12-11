@@ -13,8 +13,12 @@ end
 function onInteraction(args)
     
     world.logInfo("****************MOD OUTPUT****************")
-    
-    local playerPos{} = world.entityPosition(playerIds)
+    local playerPosList = {}
+    local playerPos = world.entityPosition(playerIds)
+    --for playerPos = 1, 2, 1 do
+        --playerPosList = {}
+        
+    world.entityPosition(playerIds)
     
     
     
