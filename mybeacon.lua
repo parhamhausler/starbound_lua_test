@@ -11,4 +11,5 @@ end
 
 function onInteraction(args)
         return { "ShowPopup", { message = "Testing!" } }
+        object.playSound("closeSounds")
 end
