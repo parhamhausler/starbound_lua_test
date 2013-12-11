@@ -16,7 +16,9 @@ function onInteraction(args)
     local playerIds = world.playerQuery({0,0}, 10000)
     world.logInfo(playerIds)
     
-    world.distance({0,0}, playerIds)
+    local playerDistance = world.distance({0,0}, playerIds)
+    return { "ShowPopup", { message = playerDistance } }
+    
     
     --entity.health(playerIds, 1, 1)
     
