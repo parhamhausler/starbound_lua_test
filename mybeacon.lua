@@ -13,7 +13,7 @@ function onInteraction(args)
     
     world.logInfo("****************MOD OUTPUT****************")
     
-    local playerIds = world.playerQuery({0,0})
+    local playerIds = world.playerQuery({0,0} 10000)
     world.logInfo(playerIds)
     entity.health(-65536, 1)
     
