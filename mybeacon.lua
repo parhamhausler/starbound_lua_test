@@ -1,8 +1,4 @@
 function init(args)
-	self.main()
-end
-
-function main()
     if self.initialized == nil then
         initializeObject();
         self.initialized = true;
