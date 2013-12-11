@@ -1,5 +1,5 @@
 function init(args)
-	object.setInteractive(true)
+	self.main()
 end
 
 function main()
