@@ -3,7 +3,10 @@ function main()
         initializeObject()
         self.initialized = true
     end
-	object.setInteractive(true)
+end
+
+function initializeObject()
+    object.setInteractive(true)
 end
 
 function onInteraction(args)
