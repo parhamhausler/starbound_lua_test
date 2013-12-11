@@ -17,7 +17,7 @@ function onInteraction(args)
     --playerIds = world.playerQuery({0,0}, 10000)
     world.logInfo(playerIds)
     
-    local playerDistance = world.distance({0,0}, playerIds)
+    local playerDistance = world.distance({0,0}, playerPos)
     return { "ShowPopup", { message = playerDistance } }
     
     
