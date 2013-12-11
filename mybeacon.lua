@@ -3,6 +3,6 @@ function init(args)
 end
 
 
-function onInteraction()
+function onInteraction(args)
 	return { "ShowPopup", { message = "Testing!" } }
 end
